@@ -12,7 +12,7 @@
  *      it should move to the Green LED. If the button is pressed again, it should move to the Red LED again.
  *
  *      There have been some "todo" notes which can be helpful in finding things to change in the code.
- */
+ *
 
 
 #include <msp430.h>
@@ -61,4 +61,4 @@ __interrupt void Port_2(void)
     P2IFG &= ~BIT3;                         // Clear P1.3 IFG
     ToggleEnable ^= 0x01;                   // Enable if the toggle should be active
 }
-
+*/
