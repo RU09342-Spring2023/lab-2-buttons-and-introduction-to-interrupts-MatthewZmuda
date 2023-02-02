@@ -80,3 +80,5 @@ Then load up Energy Trace and perform the similar capture of Power with the LED 
 ![image](https://user-images.githubusercontent.com/113445331/216460011-115fd950-b9f7-434b-92ed-b4bb63ac37bc.png)
 ![image](https://user-images.githubusercontent.com/113445331/216460247-3cc26881-f339-45a8-bd97-f73edaa3f1b2.png)
 
+1) Because the polling runs it over and over again
+2) When you push the button, power is still going to the resistor regardless of being connect to a power source.
