@@ -12,10 +12,10 @@
  *      it should move to the Green LED. If the button is pressed again, it should move to the Red LED again.
  *
  *      There have been some "todo" notes which can be helpful in finding things to change in the code.
- *
+ */
 
 
-#include <msp430.h>
+/*#include <msp430.h>
 
 char ToggleEnable = 0x01;                       // Global Variable to track if the LED should be on or off
 

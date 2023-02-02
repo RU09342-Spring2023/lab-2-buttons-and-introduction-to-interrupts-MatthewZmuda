@@ -10,9 +10,9 @@
  *      Your task for this part of the lab is to capture two screenshots of the code running in Energy Trace, one with software polling, one with interrupts.
  *
  *      You will need to update the README for this part with the screenshots.
- *
+ */
 
-#include <msp430.h>
+/*#include <msp430.h>
 
 
 void runCodeWithSoftwarePolling();
