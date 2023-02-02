@@ -1,8 +1,8 @@
 /*
  * OccupancyDetector.c
  *
- *  Created on: Jan 30, 2023
- *      Author: russty
+ *  Created on: Feb 02, 2023
+ *      Author: Matthew Zmuda
  */
 
 
