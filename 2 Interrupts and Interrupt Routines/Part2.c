@@ -15,7 +15,7 @@
  */
 
 
-/*#include <msp430.h>
+#include <msp430.h>
 
 char ToggleEnable = 0x01;                       // Global Variable to track if the LED should be on or off
 
@@ -61,4 +61,4 @@ __interrupt void Port_2(void)
     P2IFG &= ~BIT3;                         // Clear P1.3 IFG
     ToggleEnable ^= 0x01;                   // Enable if the toggle should be active
 }
-*/
+
