@@ -12,7 +12,7 @@
  *      You will need to update the README for this part with the screenshots.
  */
 
-/*#include <msp430.h>
+#include <msp430.h>
 
 
 void runCodeWithSoftwarePolling();
@@ -78,4 +78,4 @@ __interrupt void Port_2(void)
     P2IES ^= BIT3;                          // Transition the Edge Type (Low --> High, or High --> Low)
     __bic_SR_register_on_exit(LPM3_bits);   // Exit LPM3
 }
-*/
+
